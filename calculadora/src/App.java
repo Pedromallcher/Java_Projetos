@@ -12,10 +12,10 @@ public class App {
         System.out.println("Digite o valor 2: ");
         int num2 = Scanner.nextInt();
 
-        System.out.print("1 - Adicao");
+        System.out.println("1 - Adicao");
         System.out.println("2 Subtracao");
         System.out.println("3 - Multiplicacao");
-        System.out.println("4 - Divisap");
+        System.out.println("4 - Divisao");
         int opcao = Scanner.nextInt();
 
         int resultado = 0;
