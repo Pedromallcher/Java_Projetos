@@ -13,6 +13,26 @@ public class App {
         int num3 = Scanner.nextInt();
         System.out.println("Digite a nota 4 :");
         int num4 = Scanner.nextInt();
+        int opcao = Scanner.nextInt();
+
+        int res = num1 + num2 + num3 + num4;
+
+        if (res>70){
+            System.out.print("Aprovado");
+        }if (res>40 && res<=50){
+            System.out.println("Recuperacao");
+        } if (res <40){
+            System.out.println("Reprovaded");
+        }else {
+            System.out.println("Fora do Sistema");
+        }
+
+
+
+        
+
+
+
 
 
 
