@@ -23,21 +23,6 @@ public class App {
             System.out.println("Recuperacao");
         } if (res <40){
             System.out.println("Reprovaded");
-        }else {
-            System.out.println("Fora do Sistema");
         }
-
-
-
-        
-
-
-
-
-
-
-
-
-
     }
 }
